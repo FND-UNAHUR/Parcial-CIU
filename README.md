@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Chatbot en React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es un chatbot simple construido en React que utiliza un servicio de AI para responder a las preguntas de los usuarios. El chatbot se comunica con Dialogflow para proporcionar respuestas a las consultas de los usuarios.
 
-## Available Scripts
+## Requisitos
 
-In the project directory, you can run:
+1. **Interfaz de Usuario:**
+   - La aplicación cuenta con un área donde se muestran los mensajes del chatbot y del usuario.
+   - Un campo de texto permite a los usuarios escribir sus mensajes.
+   - Un botón de "Enviar" permite a los usuarios enviar sus mensajes al chatbot.
 
-### `npm start`
+2. **Comunicación con Dialogflow:**
+   - Utiliza el token de acceso de Dialogflow para realizar llamadas directas desde el frontend.
+   - La aplicación envía el mensaje del usuario a Dialogflow y muestra la respuesta del chatbot en la interfaz.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Configuración
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Antes de ejecutar la aplicación, asegúrate de configurar los siguientes detalles:
 
-### `npm test`
+- Reemplazar `YOUR_PROJECT_ID` con el ID de tu proyecto de Dialogflow.
+- Reemplazar `YOUR_SESSION_ID` con el ID de sesión deseado.
+- Agregá tu token de acceso de Dialogflow en el encabezado de las solicitudes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Ejecución
 
-### `npm run build`
+Para ejecutar la aplicación, tenes que seguir estos pasos:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clona este repositorio a tu sistema local.
+2. Instala las dependencias utilizando `npm install` las cuales son:
+    *Bootstrap
+3. Inicia la aplicación con `npm start`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+La aplicación se ejecutará en tu navegador web.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Personalización
 
-### `npm run eject`
+Si deseas personalizar la apariencia o el comportamiento del chatbot, puedes hacerlo mediante la edición de los archivos en la carpeta `src`. Puedes ajustar los estilos en `app.css` y modificar la lógica del chatbot en `Chat.js`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contribución
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Si deseas contribuir a este proyecto, siéntete libre de abrir problemas (issues) o enviar solicitudes de extracción (pull requests) en GitHub.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Licencia
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Este proyecto está bajo la Licencia MIT. Para obtener más detalles, consulta el archivo [LICENSE](LICENSE).
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Puedes personalizar este README según las necesidades específicas de tu proyecto. Asegúrate de proporcionar detalles claros sobre cómo configurar y ejecutar la aplicación, así como cualquier otro detalle relevante que los usuarios puedan necesitar.

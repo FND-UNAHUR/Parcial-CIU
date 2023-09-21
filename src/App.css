@@ -12,7 +12,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+/*
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +36,185 @@
     transform: rotate(360deg);
   }
 }
+/* Estilos generales 
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  color: #00539C;
+}
+
+/* Estilos para enlaces 
+a {
+  color: #0077cc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #004488;
+}
+
+/* Estilos para botones 
+.button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #ff4400;
+}
+
+/* Estilos para encabezados 
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+*/
+/* Estilos para el contenedor principal del chat */
+/*
+.chat-mobile {
+  width: 100%;
+  max-width: 360px; /* Ancho máximo para simular un teléfono móvil *
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+*/
+/* Estilos para la barra de estado */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #c9f7e6;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+.App-header {
+  background-color: #00539C;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding: 10px; /* Ajusta el espaciado interno según tus preferencias */
+  text-align: center;
+  font-size: 20px; /* Cambia el tamaño de fuente según tus preferencias */
+  color:#f2f2f2
+}
+
+.chat-header {
+  background-color: #EEA47F;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+.time {
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+/* Estilos para el contenedor de mensajes */
+.message-container {
+  max-height: 400px; /* Altura máxima para hacer desplazable */
+  overflow-y: scroll;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  color:#000;
+}
+
+/* Estilos para los mensajes */
+.message {
+  background-color: #fff;
+  padding: 8px 16px;
+  margin: 4px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.message-user {
+  background-color: #f2f2f2;
+}
+
+.message-bot {
+  background-color: #f2f2f2;
+  color: #000;
+}
+
+/* Estilos para el campo de entrada y el botón de enviar */
+.input-container {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background-color: #fff;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+}
+
+.send-button {
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Transición de color de fondo */
+  margin-left: 8px;
+}
+.send-button {
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Elimina el borde del botón */
+  padding: 5px 30px; /* Ajusta el relleno para cambiar las dimensiones del botón */
+  border-radius: 5px; /* Agrega esquinas redondeadas al botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s ease; /* Transición de color de fondo */
+}
+
+.send-button:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+}
+
+
+/*
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+*/
