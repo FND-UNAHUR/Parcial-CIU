@@ -6,7 +6,7 @@ import Chat from './components/Chat';
 function App() {
   return (
     <div className="App">
-      {/* Aquí puedes agregar encabezados, barras de navegación u otros componentes globales */}
+      {/* Acá se agregan los encabezados, barras de navegación u otros componentes globales */}
       <header className="App-header">
         <h1>Chatbot App</h1>
       </header>
@@ -16,7 +16,7 @@ function App() {
 
       
 
-      {/* Aquí puedes agregar pie de página u otros elementos globales */}
+      {/* Acá se agregan el pie de página y otros elementos globales */}
       <footer className="App-footer">
         <p>Copyright LOLOLOL & OMNOMNOM, todos los derechos reservados.</p>
       </footer>
@@ -26,7 +26,3 @@ function App() {
 
 export default App;
 
-/*
-{/* Renderiza un mensaje directamente en app.js }
-<Message text="Hola, ¿en qué puedo ayudarte?" type="bot" />
-*/
