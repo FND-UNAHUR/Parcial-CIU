@@ -15,7 +15,7 @@ Este proyecto es un chatbot simple construido en React que utiliza un servicio d
 
 ## Configuración
 
-Antes de ejecutar la aplicación, asegúrate de configurar los siguientes detalles:
+Antes de ejecutar la aplicación, tenes que asegurarte de configurar los siguientes detalles:
 
 - Reemplazar `YOUR_PROJECT_ID` con el ID de tu proyecto de Dialogflow.
 - Reemplazar `YOUR_SESSION_ID` con el ID de sesión deseado.
@@ -28,9 +28,10 @@ Para ejecutar la aplicación, tenes que seguir estos pasos:
 1. Clona este repositorio a tu sistema local.
 2. Instala las dependencias utilizando `npm install` las cuales son:
     *Bootstrap
-3. Inicia la aplicación con `npm start`.
+    *Axios
+4. Inicia la aplicación con `npm start`.
 
-La aplicación se ejecutará en tu navegador web.
+La aplicación se ejecutará en tu navegador web preferido.
 
 ## Personalización
 
@@ -45,5 +46,3 @@ Si deseas contribuir a este proyecto, siéntete libre de abrir problemas (issues
 Este proyecto está bajo la Licencia MIT. Para obtener más detalles, consulta el archivo [LICENSE](LICENSE).
 
 ---
-
-Puedes personalizar este README según las necesidades específicas de tu proyecto. Asegúrate de proporcionar detalles claros sobre cómo configurar y ejecutar la aplicación, así como cualquier otro detalle relevante que los usuarios puedan necesitar.
