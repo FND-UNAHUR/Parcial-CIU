@@ -86,7 +86,7 @@ function Chat() {
           placeholder="Escribe tu mensaje..."
           value={userMessage}
           onChange={(e) => setUserMessage(e.target.value)}
-          onKeyDown={handleKeyDown} // Agrega este evento onKeyDown
+          onKeyDown={handleKeyDown} 
         />
         <button className="send-button" onClick={handleSendMessage}>
           Enviar
@@ -97,3 +97,16 @@ function Chat() {
 }
 
 export default Chat;
+
+/*<div className="input-container">
+        <input
+          type="text"
+          placeholder="Escribe tu mensaje..."
+          value={userMessage}
+          onChange={(e) => setUserMessage(e.target.value)}
+          onKeyDown={handleKeyDown} // Agrega este evento onKeyDown
+        />
+        <button className="send-button" onClick={handleSendMessage}>
+          Enviar
+        </button>
+      </div> */
